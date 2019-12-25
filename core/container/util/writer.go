@@ -38,9 +38,10 @@ var includeFileTypes = map[string]bool{
 	".go":   true,
 	".yaml": true,
 	".json": true,
-  ".mod":   true,
-  ".s": true,
-  ".py": true,
+	".mod":  true,
+	".s":    true,
+	".py":   true,
+	".zk":   true,
 }
 
 // These filetypes are excluded while creating the tar package sent to Docker
